@@ -29,7 +29,7 @@ function App() {
             </div>
 
             <div className="p-6">
-              <List title="Information">
+              <List title="Oplysninger">
                 <BulletPoint icon={<IoCall color="#3B6E99" size={20} />}>
                   +45 22 29 29 87
                 </BulletPoint>
@@ -43,19 +43,16 @@ function App() {
                 </BulletPoint>
 
                 <BulletPoint icon={<IoCalendar color="#3B6E99" size={20} />}>
-                  29 Years old
+                  29 År
                 </BulletPoint>
               </List>
 
-              <List title="Skills">
+              <List title="Evner">
                 <BulletPoint rating={5}>
                   TypeScript
                 </BulletPoint>
                 <BulletPoint rating={5}>
                   React
-                </BulletPoint>
-                <BulletPoint rating={4}>
-                  Tailwind
                 </BulletPoint>
                 <BulletPoint rating={4}>
                   React Native
@@ -85,37 +82,40 @@ function App() {
                   Express
                 </BulletPoint>
                 <BulletPoint rating={3}>
+                  Sequelize
+                </BulletPoint>
+                <BulletPoint rating={3}>
                   C#
                 </BulletPoint>
-                <BulletPoint rating={2}>
-                  Docker
+                <BulletPoint rating={3}>
+                  Vue
                 </BulletPoint>
               </List>
 
-              <List title="Interests">
+              <List title="Interesser">
                 <BulletPoint icon={<IoServer color="#3B6E99" size={20} />}>
-                  Backend development
+                  Backend udvikling
                 </BulletPoint>
                 <BulletPoint icon={<IoLaptopOutline color="#3B6E99" size={20} />}>
-                  Frontend development
+                  Frontend udvikling
                 </BulletPoint>
                 <BulletPoint icon={<IoPhonePortraitSharp color="#3B6E99" size={20} />}>
-                  App development
+                  App udvikling
                 </BulletPoint>
                 <BulletPoint icon={<IoGameController color="#3B6E99" size={20} />}>
-                  Game development
+                  Spil udvikling
                 </BulletPoint>
                 <BulletPoint icon={<IoMusicalNotes color="#3B6E99" size={20} />}>
-                  Music production
+                  Musik produktion
                 </BulletPoint>
               </List>
 
-              <List title="Languages">
+              <List title="Sprog">
                 <BulletPoint rating={5}>
-                  Danish
+                  Dansk
                 </BulletPoint>
                 <BulletPoint rating={4}>
-                  English
+                  Engelsk
                 </BulletPoint>
               </List>
             </div>
@@ -124,110 +124,111 @@ function App() {
           <div className="grow bg-background p-6 relative pt-6">
 
 
-            <List title="About me">
+            <List title="Om mig">
               <p className="text-xs font-normal text-primary mb-2">
-                I am a software developer with a passion for bringing my ideas to life.
-                I started programming as a hobby, creating my own games, which led
-                me to a career in software development.
+                Jeg er en softwareudvikler med en passion for at bringe mine ideer til live.
+                Jeg begyndte at programmere som en hobby og lavede mine egne spil, og det førte
+                mig til en karriere inden for softwareudvikling.
               </p>
               <p className="text-xs font-normal text-primary mb-2">
-                I have experience in both frontend and backend development and am passionate about both.
+                Jeg har erfaring indenfor både frontend og backend udvikling og er passioneret for begge dele.
               </p>
               <p className="text-xs font-normal text-primary mb-2">
-                I enjoy collaborating with others and hearing different perspectives and ideas, but I am
-                also comfortable working independently and immersing myself in my tasks.
+                Jeg nyder at samarbejde med andre og høre forskellige perspektiver og ideer, men jeg er
+                også komfortabel med at arbejde selvstændigt og fordybe mig i mine opgaver.
               </p>
               <p className="text-xs font-normal text-primary mb-2">
-                I work with focus and strive to develop with reusability and readability in mind.
+                Jeg arbejder fokuseret og stræber efter at
+                udvikle med genanvendelighed og læsbarhed i tankerne.
               </p>
             </List>
 
 
-            <List title="Experience">
+            <List title="Erfaring">
               <BulletPoint small>
-                <Parter dates="(Jan 2018 - Oct 2019)" content="Möbius ApS/Lerche Consult" />
+                <Parter dates="(Jan 2018 - Okt 2019)" content="Möbius ApS/Lerche Consult" />
               </BulletPoint>
               <Description>
-                <p className="text-xs font-normal">Title: Systems Developer</p>
+                <p className="text-xs font-normal">Titel: System Udvikler</p>
                 <p className="text-xs font-normal pt-2">
-                  Development of various products, including an Outlook Add-in for a document management platform, a system for distributing examiners for Danish exams, and a frontend for cargo ship route optimization.
+                  Udvikling af diverse produkter blandt andet en Outlook Addin til en dokumenthåndteringsplatform, system til fordeling af censorer til danskprøver og frontend til fragtskibs ruteoptimering.
                 </p>
               </Description>
               <BulletPoint small>
                 <Parter dates="(Jun 2021 - Mar 2023)" content="MeeW" />
               </BulletPoint>
               <Description>
-                <p className="text-xs font-normal">Title: Fullstack Developer (Jun 2021 - Aug 2022)</p>
+                <p className="text-xs font-normal">Titel: Fullstack Udvikler (Jun 2021 - Aug 2022)</p>
                 <p className="text-xs font-normal pt-2">
-                  Development of backend, frontend, and databases for various apps, including a fitness app and an editor for designing bead patterns for a bead craft app.
+                  Udvikling af backend, frontend og database til diverse apps, blandt andet en fitness app og en editor til at designe perleplade motiver til en perleplade app.
                 </p>
               </Description>
               <Description>
-                <p className="text-xs font-normal">Title: Tech Lead (Aug 2022 - Mar 2023)</p>
+                <p className="text-xs font-normal">Titel: Tech Lead (Aug 2022 - Mar 2023)</p>
                 <p className="text-xs font-normal pt-2">
-                  Lead developer for 2 projects using an Ionic React (for both web and app) and Supabase stack. Handling of coding standards, code reviews, and internal project templates.
+                  Lead udvikler for 2 projekter med en Ionic React (Til både web og app), supabase stack. Håndtering af kodestandard, code reviews og interne projekt templates.
                 </p>
               </Description>
               <BulletPoint small>
-                <Parter dates="(Mar 2023 - now)" content="Colab7" />
+                <Parter dates="(Mar 2023 - nu)" content="Colab7" />
               </BulletPoint>
               <Description>
-                <p className="text-xs font-normal">Title: Fullstack developer</p>
+                <p className="text-xs font-normal">Titel: Fullstack udvikler</p>
                 <p className="text-xs font-normal pt-2">
-                  Development of apps using a React Native and Supabase stack, as well as web apps in Vite React.
+                  Udvikling af apps med en React Native og supabase stack, samt webapps i Vite React.
                 </p>
               </Description>
             </List>
 
 
-            <List title="Education">
+            <List title="Uddannelse">
               <BulletPoint small>
                 <Parter dates="(2012 - 2015)" content="HTX Vibenhus" />
               </BulletPoint>
               <Description>
-                High School, Communication/IT
+                Gymnasie, Kommunikation/IT
               </Description>
               <BulletPoint small>
-                <Parter dates="(2015 - 2015)" content="Copenhagen VUC" />
+                <Parter dates="(2015 - 2015)" content="Københavns VUC" />
               </BulletPoint>
               <Description>
-                Supplement, Math A
+                Supplement, Matematik A
               </Description>
               <BulletPoint small>
                 <Parter dates="(2015 - 2018)" content="KEA" />
               </BulletPoint>
               <Description>
-                AP Degree, Computer Science
+                Erhvervsakademi uddannelse, Datamatiker
               </Description>
               <BulletPoint small>
                 <Parter dates="(2020 - 2022)" content="KEA" />
               </BulletPoint>
               <Description>
-                Bachelor, Software Development
+                Professionsbachelor, Softwareudvikling
               </Description>
             </List>
 
-            <List title="References">
+            <List title="Referencer">
               <Description>
-                The following references will be provided upon request.
+                Følgende referencer oplyses gerne på opfordring
               </Description>
               <BulletPoint small>
                 Kristian Lerche
               </BulletPoint>
               <Description>
-                CEO of Möbius/Lerche consult
+                Direktør for Möbius/Lerche consult
               </Description>
               <BulletPoint small>
                 Sebastian Tracey
               </BulletPoint>
               <Description>
-                Former CTO of MeeW
+                Tidligere CTO for MeeW
               </Description>
               <BulletPoint small>
                 Mathias Høyrup Nielsen
               </BulletPoint>
               <Description noMargin>
-                CEO of Colab7
+                Direktør for Colab7
               </Description>
             </List>
           </div>
